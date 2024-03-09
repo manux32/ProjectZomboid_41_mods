@@ -1,0 +1,229 @@
+module manux_NomadLife_Optimizer
+{
+	imports 
+	{
+        Base
+    }
+	
+	item BedWithStorage_Wood
+	{
+		DisplayCategory = Furniture,
+		Weight 		= 40,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Furniture_01_0,
+		DisplayName 		= Bed with storage (wood),
+		Icon 		= BedWithStorage_Wood,
+	}
+	
+	item BedWithStorage_Metal
+	{
+		DisplayCategory = Furniture,
+		Weight 		= 40,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Furniture_01_4,
+		DisplayName 		= Bed with storage (metal),
+		Icon 		= BedWithStorage_Metal,
+	}
+	
+	item UpperCupboard_Wood
+	{
+		DisplayCategory = Furniture,
+		Weight 		= 20,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Furniture_01_8,
+		DisplayName 		= Upper Cupboard (wood),
+		Icon 		= UpperCupboard_Wood,
+	}
+	
+	item UpperCupboard_Metal
+	{
+		DisplayCategory = Furniture,
+		Weight 		= 20,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Furniture_01_12,
+		DisplayName 		= Upper Cupboard (metal),
+		Icon 		= UpperCupboard_Metal,
+	}
+	
+	item VerticalFreezer
+	{
+		DisplayCategory = Furniture,
+		Weight 		= 40,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Furniture_01_16,
+		DisplayName 		= Vertical Freezer,
+		Icon 		= VerticalFreezer,
+	}
+	
+	item Half_Fence_Wood
+	{
+		DisplayCategory = Furniture,
+		Weight 		= 5,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Furniture_01_24,
+		DisplayName 		= Half Fence (Wood),
+		Icon 		= Half_Fence_Wood,
+	}
+	
+	item SmallBatteryCharger
+	{
+		DisplayCategory = Electronics,
+		Weight 		= 0.3,
+		Type 		= Moveable,
+		WorldObjectSprite 		= manux_Tiles_Devices_01_0,
+		DisplayName 		= Small Batteries Charger,
+		Icon 		= SmallBatteryCharger,
+	}
+
+
+/************************ Recipes ************************/
+
+	recipe Make Mattress
+    {
+        keep [Recipe.GetItemTypes.SewingNeedle],
+		keep Scissors,
+        Thread=6,
+        Sheet=6,
+		RippedSheets=20,
+
+        Result:Mattress,
+		Sound:ClothesRipping,
+        Time:500.0,
+		AnimNode:RipSheets,
+        Category:Tailoring,
+		SkillRequired	: Tailoring=2,
+		OnGiveXP 		: GiveXP_Tailoring,
+    }
+	    
+	recipe Make Bed with Storage (Wood)
+    {
+        keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+        Mattress=1,
+		Plank=10,
+        Nails=20,
+		Hinge=2,
+		
+		Result:BedWithStorage_Wood,
+        Sound:Hammering,
+        Time:1000.0,
+        Category:Carpentry,
+		SkillRequired	: Woodwork=2,
+		AnimNode 		: BuildLow,
+		Prop1 			: Hammer,
+		OnGiveXP 		: GiveXP_Carpentry,
+    }
+	
+	recipe Make Bed with Storage (Metal)
+    {
+		BlowTorch=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+        Mattress=1,
+		SheetMetal=4,
+        SmallSheetMetal=4,
+		MetalPipe=4,
+		Hinge=2,
+		
+		Result:BedWithStorage_Metal,
+        Sound:BlowTorch,
+        Time:1000.0,
+        Category:Welding,
+		SkillRequired	: MetalWelding=4,
+		AnimNode 		: BlowTorchFloor,
+		Prop1 			: BlowTorch,
+		OnGiveXP 		: GiveXP_MetalWelding,
+    }
+	
+	recipe Make Upper Cupboard (Wood)
+    {
+        keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+		Plank=4,
+        Nails=6,
+		Hinge=2,
+		
+		Result:UpperCupboard_Wood,
+        Sound:Hammering,
+        Time:400.0,
+        Category:Carpentry,
+		SkillRequired	: Woodwork=2,
+		AnimNode 		: BuildLow,
+		Prop1 			: Hammer,
+		OnGiveXP 		: GiveXP_Carpentry,
+    }
+	
+	recipe Make Upper Cupboard (Metal)
+    {
+		BlowTorch=4,
+		keep [Recipe.GetItemTypes.WeldingMask],
+        SmallSheetMetal=4,
+		MetalPipe=2,
+		Hinge=2,
+		
+		Result:UpperCupboard_Metal,
+        Sound:BlowTorch,
+        Time:400.0,
+        Category:Welding,
+		SkillRequired	: MetalWelding=4,
+		AnimNode 		: BlowTorchFloor,
+		Prop1 			: BlowTorch,
+		OnGiveXP 		: GiveXP_MetalWelding,
+    }
+	
+	recipe Make Vertical Freezer
+    {
+		BlowTorch=10,
+		keep [Recipe.GetItemTypes.WeldingMask],
+		SheetMetal=6,
+        SmallSheetMetal=6,
+		MetalPipe=6,
+		Hinge=2,
+		Doorknob=1,
+		ElectronicsScrap=20,
+		ElectricWire=6,
+		Glue=6,
+		
+		Result:VerticalFreezer,
+        Sound:BlowTorch,
+        Time:1000.0,
+        Category:Welding,
+		SkillRequired	: MetalWelding=4;Electricity=4,
+		AnimNode 		: BlowTorchFloor,
+		Prop1 			: BlowTorch,
+		OnGiveXP 		: GiveXP_MetalWelding_Electrical,
+    }
+	
+	recipe Make Half Fence (Wood)
+    {
+        keep [Recipe.GetItemTypes.Saw],
+		keep [Recipe.GetItemTypes.Hammer],
+		Plank=2,
+        Nails=2,
+		
+		Result:Half_Fence_Wood,
+        Sound:Hammering,
+        Time:200.0,
+        Category:Carpentry,
+		SkillRequired	: Woodwork=1,
+		AnimNode 		: BuildLow,
+		Prop1 			: Hammer,
+		OnGiveXP 		: GiveXP_Carpentry,
+    }
+	
+	recipe Make Small Batteries Charger
+    {
+       keep [Recipe.GetItemTypes.Screwdriver],
+       ElectronicsScrap=6,
+	   ElectricWire=2,
+       Glue=2,
+
+       Result:SmallBatteryCharger,
+	   Sound:Dismantle,
+       SkillRequired:Electricity=4,
+       Time:500.0,
+       Category:Electrical,
+	   AnimNode:Disassemble,
+       Prop1:Screwdriver,
+	   OnGiveXP 		: GiveXP_Electrical,
+    }
+}

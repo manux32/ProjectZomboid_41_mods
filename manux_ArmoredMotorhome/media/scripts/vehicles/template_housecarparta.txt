@@ -1,0 +1,208 @@
+module Base
+{
+	model housecarparta
+	{
+		mesh = housecarparta,
+		texture = Vehicles/Vehicles_Housecarparta,
+		scale = 1,
+		shader = vehiclewheel,
+	}
+
+    template vehicle housecarparta
+	{
+		part housecarparta
+		{
+			model housecarparta
+			{
+				file = housecarparta,
+			}
+			area = Engine,
+			category = Extra,
+			specificItem = false,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			lua
+			{
+				create = housecarparta.Create.housecarparta,
+				init = housecarparta.Init.housecarparta,
+			}
+		}
+	}
+
+	model housecarpartbullbar
+	{
+		mesh =housecarpartbullbar,
+		texture = Vehicles/Vehicles_Housecarparta,
+		scale = 1,
+		shader = vehiclewheel,
+	}
+
+    template vehicle housecarpartbullbar
+	{
+		part housecarpartbullbar
+		{
+			model housecarpartbullbar
+			{
+				file = housecarpartbullbar,
+			}
+			area = Engine,
+			category = Extra,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			itemType = Base.housecarpartbullbar,
+			mechanicRequireKey = true,
+			lua
+			{   
+				update=housecarpartbullbar.update.housecarpartbullbar,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = secondary,
+					}
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = secondary,
+					}
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+		}
+	}
+
+	model housecarpartgun1
+	{
+		mesh =housecarpartgun1,
+		texture = Vehicles/Vehicles_Housecarbody,
+		scale = 1,
+		shader = vehiclewheel,
+	}
+
+	template vehicle housecarpartgun1
+	{
+		part housecarpartgun1
+		{
+			model housecarpartgun1
+			{
+				file = housecarpartgun1,
+			}
+			area = Engine,
+			category = Extra,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			itemType = Base.housecarpartgun1,
+			mechanicRequireKey = true,
+			lua
+			{   
+				update=housecarpartgun1.update.housecarpartgun1,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = secondary,
+					}
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Screwdriver,
+						count = 1,
+						keep = true,
+						equip = secondary,
+					}
+					2
+					{
+						type = Base.Wrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 500,
+				test = Vehicles.UninstallTest.Default,
+				complete = Vehicles.UninstallComplete.Default,
+			}
+		}
+	}
+
+	model housecarpartgun2
+	{
+		mesh =housecarpartgun2,
+		texture = Vehicles/Vehicles_SuperBulldozer,
+		scale = 1,
+		shader = vehiclewheel,
+	}
+
+    template vehicle housecarpartgun2
+	{
+		part housecarpartgun2
+		{
+			model housecarpartgun2
+			{
+				file = housecarpartgun2,
+			}
+			area = Engine,
+			category = Extra,
+			specificItem = false,
+			mechanicRequireKey = false,
+			repairMechanic = true,
+			lua
+			{
+				create = housecarpartgun2.Create.housecarpartgun2,
+				init = housecarpartgun2.Init.housecarpartgun2,
+			}
+		}
+	}
+}

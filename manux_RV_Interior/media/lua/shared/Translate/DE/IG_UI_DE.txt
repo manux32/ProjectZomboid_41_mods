@@ -1,0 +1,4 @@
+IG_UI_DE = {
+    IGUI_enterrvinterior = "Eintreten",
+	IGUI_exitrvinterior = "Ausfahrt",
+}

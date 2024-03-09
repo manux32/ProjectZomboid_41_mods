@@ -1,0 +1,6 @@
+﻿Items_CN = {
+    DisplayName_TheTigerShell = "TheTiger炮弹",
+    DisplayName_TheTigerShellBOX = "TheTiger炮弹箱",
+    DisplayName_Front_shovel="前置车铲",
+    DisplayName_Rail_gun="电磁炮",
+}

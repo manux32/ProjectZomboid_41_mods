@@ -1,0 +1,10 @@
+name=manux_RVInterior_AdditionnalVehicles
+poster=preview.png
+versionMin=41.60
+id=manux_RVInterior_AdditionnalVehicles
+icon=icon.png
+authors=manux
+tags=Vehicles
+modVersion=1.0.0
+description=Adds RV Interior support for the vehicles Manux likes.
+require=RV_Interior_MP

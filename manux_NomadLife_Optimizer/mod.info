@@ -1,0 +1,10 @@
+name=manux_NomadLife_Optimizer
+id=manux_NomadLife_Optimizer
+poster=poster.png
+description= A series of improvements to help optimize space and functionality in Nomad playthroughs. Designed with RV Interior in mind, but the mod is not required.
+require=manux_RecipesGiveXP
+pack=manux_NomadLife_Optimizer
+tiledef=manux_NomadLife_Optimizer_tiledefs 4791
+modversion=1.0
+authors=manux
+tags=Build 41

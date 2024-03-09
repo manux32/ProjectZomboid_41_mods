@@ -1,0 +1,178 @@
+module Base
+{
+
+	/************************ Tires ************************/
+
+    item V100Tire1
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat Tire,
+        Icon	=	runflatTire,
+        VehicleType =   1,
+        MaxCapacity = 11,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.4,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+    }
+
+    item V100Tire2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat Tire,
+        Icon	=	runflatTire,
+        VehicleType =   2,
+        MaxCapacity = 11,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+    }
+
+    item V100Tire3
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat Tire,
+        Icon	=	runflatTire,
+        VehicleType =   3,
+        MaxCapacity = 11,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 0,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        WheelFriction = 1.8,
+        MechanicsItem = TRUE,
+    }
+
+	/************************ Doors ************************/
+
+    item P19ARoofHatch1
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	P19A Hatch,
+        Icon	=	P19Ahatch,
+        VehicleType =   1,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ARoofHatch2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	P19A Hatch,
+        Icon	=	P19Ahatch,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 15,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ARoofHatch3
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	P19A Hatch,
+        Icon	=	P19Ahatch,
+        VehicleType =   3,
+        ChanceToSpawnDamaged = 10,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+    }
+
+	/************************ Trunks ************************/
+
+    item P19ABigTrunk1
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	P19Ahatch,
+        VehicleType =   1,
+        MaxCapacity = 500,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ABigTrunk2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	P19Ahatch,
+        VehicleType =   2,
+        MaxCapacity = 500,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ABigTrunk3
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	P19Ahatch,
+        VehicleType =   3,
+        MaxCapacity = 500,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ASmallTrunk1
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	P19Ahatch,
+        VehicleType =   1,
+        MaxCapacity = 150,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ASmallTrunk2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	P19Ahatch,
+        VehicleType =   2,
+        MaxCapacity = 150,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item P19ASmallTrunk3
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	P19Ahatch,
+        VehicleType =   3,
+        MaxCapacity = 150,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+}

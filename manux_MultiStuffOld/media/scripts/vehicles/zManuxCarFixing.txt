@@ -1,0 +1,173 @@
+module Base
+{
+	fixing Fix Gas Tank Welding
+	{
+	   Require : SmallGasTank1;NormalGasTank1;BigGasTank1;SmallGasTank2;NormalGasTank2;BigGasTank2;SmallGasTank3;NormalGasTank3;BigGasTank3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Trailer Welding
+	{
+		Require : TrailerTrunk1;TrailerTrunk2;TrailerTrunk3,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 2.0,
+
+		Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+		Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Trunk Welding
+	{
+	   Require : SmallTrunk1;NormalTrunk1;BigTrunk1;SmallTrunk2;NormalTrunk2;BigTrunk2;SmallTrunk3;NormalTrunk3;BigTrunk3;VanSeatsTrunk2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Hood Welding
+	{
+	   Require : EngineDoor1;EngineDoor2;EngineDoor3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    fixing Fix Hood
+	{
+	   Require : EngineDoor1;EngineDoor2;EngineDoor3,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix Trunk Lid Welding
+    {
+       Require : TrunkDoor1;TrunkDoor2;TrunkDoor3,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix Trunk Lid
+	{
+       Require : TrunkDoor1;TrunkDoor2;TrunkDoor3,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix Door Welding
+	{
+	   Require : FrontCarDoor1;FrontCarDoor2;FrontCarDoor3;RearCarDoor1;RearCarDoor2;RearCarDoor3;RearCarDoorDouble1;RearCarDoorDouble2;RearCarDoorDouble3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+    fixing Fix Glove box
+	{
+	   Require : GloveBox1;GloveBox2;GloveBox3,
+	   ConditionModifier : 2.0,
+	   
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+
+    fixing Fix Car seat
+	{
+	   Require : NormalCarSeat1;NormalCarSeat2;NormalCarSeat3,
+	   ConditionModifier : 2.0,
+
+       Fixer : DuctTape=2;Mechanics=2,
+       Fixer : Glue=2;Mechanics=2,
+	}
+	
+	
+	/* Manux new STUFF */
+	
+	fixing Fix Tire
+	{
+	   Require : OldTire1;ModernTire1;NormalTire1;OldTire2;ModernTire2;NormalTire2;OldTire3;ModernTire3;NormalTire3,
+	   ConditionModifier : 2.0,
+		
+	   Fixer : DuctTape=2;Mechanics=2,
+       Fixer : Glue=2;Mechanics=2, 
+	}
+	
+	fixing Fix Brake Welding
+	{
+	   Require : OldBrake1;OldBrake2;OldBrake3;NormalBrake1;NormalBrake2;NormalBrake3;ModernBrake1;ModernBrake2;ModernBrake3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SmallSheetMetal=1; MetalWelding=3;Mechanics=3,
+	}
+	
+	fixing Fix Suspension Welding
+	{
+	   Require : ModernSuspension1;ModernSuspension2;ModernSuspension3;NormalSuspension1;NormalSuspension2;NormalSuspension3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SmallSheetMetal=1; MetalWelding=3;Mechanics=3,
+	}
+	
+	fixing Fix Car Battery
+	{
+	   Require : CarBattery1;CarBattery2;CarBattery3,
+	   ConditionModifier : 2.0,
+
+       Fixer : Aluminum=1;Mechanics=2,
+	}
+	
+	fixing Fix Windshield
+	{
+	   Require : Windshield1;Windshield2;Windshield3;RearWindshield1;RearWindshield2;RearWindshield3,
+	   ConditionModifier : 2.0,
+		
+	   Fixer : DuctTape=3;Mechanics=4,
+       Fixer : Glue=3;Mechanics=4, 
+	}
+	
+	fixing Fix Window
+	{
+	   Require : FrontWindow1;RearWindow1;FrontWindow2;RearWindow2;FrontWindow3;RearWindow3,
+	   ConditionModifier : 2.0,
+		
+	   Fixer : DuctTape=2;Mechanics=3,
+       Fixer : Glue=2;Mechanics=3, 
+	}
+	
+	fixing Fix Door Welding
+	{
+	   Require : FrontCarDoor1;FrontCarDoor2;FrontCarDoor3;RearCarDoor1;RearCarDoor2;RearCarDoor3;RearCarDoorDouble1;RearCarDoorDouble2;RearCarDoorDouble3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=3,
+	}
+	
+	fixing Fix Muffler Welding
+	{
+	   Require : OldCarMuffler1;NormalCarMuffler1;ModernCarMuffler1;OldCarMuffler2;NormalCarMuffler2;ModernCarMuffler2;OldCarMuffler3;NormalCarMuffler3;ModernCarMuffler3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+       Fixer : SmallSheetMetal=1; MetalWelding=3;Mechanics=3,
+	}
+}

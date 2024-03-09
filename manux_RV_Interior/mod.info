@@ -1,0 +1,6 @@
+name=manux_RV_Interior
+id=manux_RV_Interior
+description= Adds an interior to the RV
+poster=poster.png
+pack=rvinterior
+tiledef=rvinterior 446

@@ -1,0 +1,7 @@
+UI_EN = {
+UI_Text_PushByHands = "Push vehicle",
+UI_Text_PushByHands_Left = "Left",
+UI_Text_PushByHands_Right = "Right",
+UI_Text_PushByHands_Front = "Front",
+UI_Text_PushByHands_Behind = "Behind",
+}

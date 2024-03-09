@@ -1,0 +1,6 @@
+name=manux_ArmoredMotorhome
+id=manux_ArmoredMotorhome
+pack=Housecar
+tiledef=Housecar 996
+description=Adds the Armored Motorhome to the game.
+poster=poster.png

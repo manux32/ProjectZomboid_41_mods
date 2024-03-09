@@ -1,0 +1,16 @@
+IG_UI_EN = {
+    IGUI_jinruchefang = "Enter",
+	IGUI_exitcarhouse = "Exit",
+	IGUI_VehiclePartSeatBigTrunkbed = "Rear compartment",
+	IGUI_VehiclePartCatblade="Extra",
+
+	IGUI_VehicleParthousecarparta = "Support frame",
+	IGUI_VehicleParthousecarpartgastank = "GasTank",
+	IGUI_VehicleParthousecarpartgun1 = "Electromagnetic artillery",
+	IGUI_VehicleParthousecarpartgun2 = "Bumper",
+	IGUI_VehicleParthousecarpartbullbar = "Front Shovel",
+
+	IGUI_SeatBigTrunkbed="Rear compartment entrance",
+
+	IGUI_VehicleNameArmoredMotorhome="Doomsday armored RV",
+}

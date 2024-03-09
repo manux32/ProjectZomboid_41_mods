@@ -1,0 +1,255 @@
+module Base
+{
+
+	/************************ Tires ************************/
+
+    item V100Tire2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat Tire,
+        Icon	=	runflatTireM998,
+        VehicleType =   2,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+	WorldStaticModel = M998Wheel,
+    }
+
+	/************************ Trunks ************************/
+
+    item M998Trunk2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	na,
+        VehicleType =   2,
+        MaxCapacity = 700,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item M998Extra2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	na,
+        VehicleType =   2,
+        MaxCapacity = 700,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+	/************************ Spare tire ************************/
+
+    item M998SpareMount_Item
+    {
+        Weight	=	16.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Spare Tire Mount,
+        Icon	=	mountM998,
+        VehicleType =   2,
+        MaxCapacity = 100,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+	WorldStaticModel = M998SpareMount,
+    }
+
+    item M998SpareTireMount_Item
+    {
+        Weight	=	4.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Spare Tire with Mount,
+        Icon	=	sparewmount,
+        VehicleType =   2,
+		MaxCapacity = 100,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+	WorldStaticModel = M998SpareTire,
+    }
+
+
+
+    /************************ Doors ************************/
+
+    item M998CarFrontDoor2
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Door,
+        Icon	=	fdoorM998,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = M998FrontDoor,
+    }
+
+    item M998CarRearDoor2
+    {
+        Weight	=	10.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Door,
+        Icon	=	rdoorM998,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = M998RearDoor,
+    }
+
+    /************************ Hood ************************/
+
+    item M998EngineDoor2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Hood,
+        Icon	=	hoodM998,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = M998EngineDoor,
+    }
+
+    /************************ Trunk Lid ************************/
+
+    item M998TrunkDoor2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Trunk Lid,
+        Icon	=	trunkM998,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = M998TrunkDoor,
+    }
+
+    /************************ Seats ************************/
+
+     item M998CarSeat2
+     {
+         Weight	=	15.0,
+         Type	=	Normal,
+         DisplayName	=	M998 Seat,
+         Icon	=	seatM998,
+         MaxCapacity = 125,
+         ChanceToSpawnDamaged = 20,
+         ConditionMax = 100,
+         MechanicsItem = TRUE,
+         WorldStaticModel = M998Seat,
+     }
+
+     /************************ Muffler ************************/
+
+      item M998Muffler1_Item
+      {
+          Weight	=	4.0,
+          Type	=	Normal,
+          DisplayName	=	M998 Small Muffler,
+          Icon	=	smallmuff,
+          EngineLoudness = 80,
+          ConditionMax = 100,
+          ConditionLowerStandard = 0.02,
+          ConditionLowerOffroad = 0.04,
+          MechanicsItem = TRUE,
+          WorldStaticModel = M998SmallMuffler,
+      }
+
+      item M998Muffler2_Item
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	M998 Big Muffler,
+          Icon	=	bigmuff,
+          EngineLoudness = 120,
+          ConditionMax = 100,
+          ConditionLowerStandard = 0.01,
+          ConditionLowerOffroad = 0.02,
+          MechanicsItem = TRUE,
+          WorldStaticModel = M998BigMuffler,
+      }
+
+     /************************ Bullbar ************************/
+
+	item M998Bullbar1_Item
+      {
+          Weight	=	10.0,
+          Type	=	Normal,
+          DisplayName	=	M998 Small Bullbar,
+          Icon	=	smallbull,
+          ConditionMax = 100,
+          MechanicsItem = TRUE,
+          WorldStaticModel = M998SmallBullbar,
+      }
+
+	item M998Bullbar2_Item
+      {
+          Weight	=	15.0,
+          Type	=	Normal,
+          DisplayName	=	M998 Big Bullbar,
+          Icon	=	bigbull,
+          ConditionMax = 100,
+          MechanicsItem = TRUE,
+          WorldStaticModel = M998BigBullbar,
+      }
+
+     /************************ Interiors ************************/
+
+	item M998DefaultInterior2
+      {
+          Weight	=	0.1,
+          Type	=	Normal,
+          DisplayName	=	M998 Interior,
+          Icon	=	na,
+          VehicleType =   2,
+          ConditionMax = 100,
+          MechanicsItem = TRUE,
+      }
+
+     /************************ Windows ************************/
+
+	item M998Windshield2
+    {
+        Weight	=	8.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Windshield,
+        Icon	=	windshieldM998,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = M998Windshield,
+    }
+
+	item M998SideWindow2
+    {
+        Weight	=	3.0,
+        Type	=	Normal,
+        DisplayName	=	M998 Side Window,
+        Icon	=	windowM998,
+        VehicleType =   2,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = M998Window,
+    }
+
+}

@@ -1,0 +1,28 @@
+﻿IG_UI_CN = {
+    IGUI_jinruchefang = "进入房间",
+	IGUI_exitcarhouse = "离开",
+	IGUI_VehiclePartSeatBigTrunkbed = "后舱",
+	IGUI_VehiclePartCatExtra="扩展",
+
+	IGUI_VehicleParthousecarparta = "支撑架",
+	IGUI_VehicleParthousecarpartgastank = "汽油罐",
+	IGUI_VehicleParthousecarpartgun1 = "电磁炮",
+	IGUI_VehicleParthousecarpartgun2 = "保险杠",
+	IGUI_VehicleParthousecarpartbullbar = "前置车铲",
+
+	IGUI_SeatBigTrunkbed="后舱入口",
+
+	IGUI_VehicleNameArmoredMotorhome="末日装甲房车",
+
+
+
+
+	IGUI_VehiclePartSeatGunner = "机枪手",
+	IGUI_VehiclePartSeatInvestigator = "侦查员",
+	IGUI_VehiclePartSeatAmmunitionchest = "物资箱",
+
+	IGUI_VehiclePartCathead="炮塔",
+	IGUI_VehiclePartCatfoot="履带",
+	IGUI_VehicleParttankhead="炮塔",
+	IGUI_VehicleParttankfoot="履带",
+}

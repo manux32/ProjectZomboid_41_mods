@@ -1,0 +1,4 @@
+IG_UI_CN = {
+    IGUI_enterrvinterior = "进入房间",
+	IGUI_exitrvinterior = "离开",
+}

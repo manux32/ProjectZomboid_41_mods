@@ -1,0 +1,7 @@
+name=manux_RecipesGiveXP
+id=manux_RecipesGiveXP
+description= Function library to give some XP in my mods
+modversion=1.0
+authors=manux
+pzversion=41
+tags=Build 41

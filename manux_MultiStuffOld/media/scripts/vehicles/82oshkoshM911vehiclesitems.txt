@@ -1,0 +1,120 @@
+module Base
+{
+
+	/************************ Tires ************************/
+
+    item V100Tire2
+    {
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat Tire,
+        Icon	=	runflatTire,
+        VehicleType =   2,
+        MaxCapacity = 11,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+    }
+
+	/******************* Double Tires ************************/
+
+    item V100Tires2
+    {
+        Weight	=	18.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat Double Tires,
+        Icon	=	doublerunflatTire,
+        VehicleType =   2,
+        MaxCapacity = 11,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+    }
+
+	/******************* 4 Tire Axle ************************/
+
+    item V100Axle2
+    {
+        Weight	=	35.0,
+        Type	=	Normal,
+        DisplayName	=	RunFlat 4 Tire Axle,
+        Icon	=	runflatTireaxle,
+        VehicleType =   2,
+        MaxCapacity = 11,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+    }
+
+
+/******************* 4 Tire Axle Small************************/
+
+    item V100AxleSmall2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Small 4 Tire Axle,
+        Icon	=	runflatTireaxle,
+        VehicleType =   2,
+        MaxCapacity = 11,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.6,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.0,
+        ConditionLowerOffroad = 0.0,
+        MechanicsItem = TRUE,
+    }
+
+	/************************ Trunks ************************/
+
+    item M911Trunk2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	na,
+        VehicleType =   2,
+        MaxCapacity = 500,
+        ConditionAffectsCapacity = true,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item M911Toolbox2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	na,
+        VehicleType =   2,
+        MaxCapacity = 150,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+
+    item M911SpareTire2
+    {
+        Weight	=	25.0,
+        Type	=	Normal,
+        DisplayName	=	Trunk,
+        Icon	=	na,
+        VehicleType =   2,
+        MaxCapacity = 100,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+    }
+}

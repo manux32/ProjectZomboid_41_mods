@@ -1,0 +1,9 @@
+name=manux_SpecialEmergencyVehicles_Upgrades
+id=manux_SpecialEmergencyVehicles_Upgrades
+description= Standardized upgrades for Special Emergency Vehicles: 86bounderHAzardmaterials and 86econolinervFBIMHQLG.
+poster=poster.png
+modversion=1.0
+authors=manux
+pzversion=41
+tags=Build 41
+require=FRUsedCars,SpecialEmergencyVehiclesFRsm,tsarslib,StandardizedVehicleUpgradesCore,StandardizedVehicleUpgradesFR

@@ -1,0 +1,5 @@
+name=manux_ExploringTime
+id=manux_ExploringTime
+require=manux_RecipesGiveXP
+description=Gas lanterns, flares and torches.
+poster=poster.png

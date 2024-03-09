@@ -1,0 +1,24 @@
+module Base
+{
+    recipe Front shovel
+	{
+		SheetMetal=15,
+        MetalBar=10,
+		Result 		: housecarpartbullbar2,
+		Time 		: 1,
+		Category 		: 房车,
+		CanBeDoneFromFloor 		: TRUE,
+	}
+	recipe Rail gun
+	{
+		SheetMetal=20,
+        MetalBar=20,
+		Result 		: housecarpartgun12,
+		Time 		: 1,
+		Category 		: 房车,
+		CanBeDoneFromFloor 		: TRUE,
+	}
+}
+
+
+

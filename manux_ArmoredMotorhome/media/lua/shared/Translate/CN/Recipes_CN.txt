@@ -1,0 +1,5 @@
+Recipe_CN = {
+    Recipe_Front_shovel="前置车铲",
+    Recipe_Rail_gun="电磁炮（装饰）",
+}
+

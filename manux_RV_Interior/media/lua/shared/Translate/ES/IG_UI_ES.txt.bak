@@ -1,0 +1,4 @@
+IG_UI_AR = {
+    IGUI_enterrvinterior = "Ingresar",
+	IGUI_exitrvinterior = "Salida",
+}

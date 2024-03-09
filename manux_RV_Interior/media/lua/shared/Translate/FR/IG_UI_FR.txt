@@ -1,0 +1,4 @@
+IG_UI_FR = {
+    IGUI_enterrvinterior = "Entrer",
+	IGUI_exitrvinterior = "Sortir",
+}

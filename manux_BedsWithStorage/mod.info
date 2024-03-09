@@ -1,0 +1,10 @@
+name=manux_BedsWithStorage
+id=manux_BedsWithStorage
+poster=poster.png
+description= For Nomad playthroughs with RV Interior, adds craftable single beds (good quality) with storage.
+require=manux_RecipesGiveXP
+pack=manux_bedswithstorage
+tiledef=manux_bedswithstorage_tiledefs 4790
+modversion=1.0
+authors=manux
+tags=Build 41

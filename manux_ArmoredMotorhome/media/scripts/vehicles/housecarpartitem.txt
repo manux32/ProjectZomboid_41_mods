@@ -1,0 +1,78 @@
+module Base
+{
+    item housecarpartbullbar1
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Front shovel,
+        Icon	=	CarGastank,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+    }
+    item housecarpartbullbar2
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Front shovel,
+        Icon	=	CarGastank,
+        VehicleType =   2,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+    }
+    item housecarpartbullbar3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Front shovel,
+        Icon	=	CarGastank,
+        VehicleType =   3,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+    }
+    item housecarpartgun11
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Rail gun,
+        Icon	=	CarGastank,
+        VehicleType =   3,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+    }
+    item housecarpartgun12
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Rail gun,
+        Icon	=	CarGastank,
+        VehicleType =   2,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+    }
+    item housecarpartgun13
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        DisplayName	=	Rail gun,
+        Icon	=	CarGastank,
+        VehicleType =   3,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 60,
+        MechanicsItem = TRUE,
+    }
+}
+
+
+
